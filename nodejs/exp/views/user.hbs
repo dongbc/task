@@ -1,0 +1,25 @@
+<body>
+<form action="/user/search" method="post">
+    姓名：<input type="text" name="name" value="{{datas.name}}"><br>
+    年龄：<input type="text" name="age" value="{{datas.age}}"><br>
+    <input type="submit" value="查询">
+</form>
+<table>
+    <tr>
+        <th>编号</th>
+        <th>姓名</th>
+        <th>年龄</th>
+        <th>操作</th>
+    </tr>
+    {{#each datas}}
+    <tr>
+        <td>{{id}}</td>
+        <td>{{name}}</td>
+        <td>{{age}}</td>
+        <td><a href="/user/add">添加用户</a></td>
+        <td><a href="/user/del/{{id}}">删除</a></td>
+        <td><a href="/user/toUpdate/{{id}}">修改</a></td>
+    </tr>
+    {{/each}}
+</table>
+</body>

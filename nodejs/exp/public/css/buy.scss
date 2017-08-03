@@ -1,0 +1,234 @@
+#elm{
+    margin: 0 auto;
+    #toper{
+        height: 112px;
+        background: #009eff;
+        position: fixed;
+        top: 0;
+        z-index: 3;
+        .title{
+            height: 50px;
+            line-height: 50px;
+            .arrow{
+                float: left;
+                font-size: 15px;
+                font-size: 1.5rem;
+                color: #fff;
+                margin-left: 20px;
+            }
+            p{
+                text-align: center;
+                font-size: 15px;
+                font-size: 1.5rem;
+                color: #fff;
+                margin-left: 35px;
+                margin-right: 35px;
+            }
+        }
+        .addrs{
+            text-align: center;
+            button{
+                background: transparent;
+                width: 136px;
+                height: 34px;
+                border-radius: 20px;
+                border: 1px solid #fff;
+                color: #fff;
+                margin-top: 15px;
+            }
+        }
+    }
+    
+    #content{
+        .sendtime{
+            height: 76px;
+            margin: 8px;
+            margin-top: 120px;
+            background: #fff;
+            p{
+                margin-left: 15px;
+            }
+            p:nth-child(1){
+                font-size: 14px;
+                font-size: 1.4rem;
+                font-weight: bold;
+                padding-top: 18px;
+                padding-bottom: 10px;
+            }
+            p:nth-child(2){
+                width: 44px;
+                font-size: 10px;
+                font-size: 1rem;
+                color: #fff;
+                background: #019aff;
+                padding: 2px;
+                border-radius: 4px;
+                text-align: center;
+            }
+        }
+        
+        .show{
+            height: 344px;
+            margin: 0px 8px 8px 8px;
+            background: #fff;
+            div{
+                border-width: thin;
+            }
+            h2{
+                width: 120px;
+                font-size: 14px;
+                font-size: 1.4rem;
+                margin: 0 auto;
+                text-align: center;
+                margin-top: -12px;
+                background: #fff;
+                z-index: 1;
+            }
+            .s{
+                font-size: 10px;
+                font-size: 1rem;
+                line-height: 38px;
+                margin-right: 4px;
+            }
+            .z{
+                font-size: 14px;
+                font-size: 1.4rem;
+                line-height: 38px;
+                margin-left: 4px;
+            }
+            &>div{
+                transform: translateY(27px);
+                margin: 0 15px;
+                border: 1px solid #dfdfdf;
+                border-width: 2px 0;
+                p:nth-child(1){
+                    float: right;
+                }
+                .num{
+                    float: right;
+                    margin-right: 10px;
+                }
+                div{
+                    height: 38px;
+                    border-bottom: 1px dashed #e4e4e4;
+                }
+                div:nth-child(1){
+                    height: auto;
+                    margin-top: 1px;
+                    border-top: 1px solid #e4e4e4;
+                    border-bottom: 0;
+                }
+                div:nth-child(2){
+                    height: 49px;
+                    line-height: 49px;
+                    font-size: 14px;
+                    font-size: 1.4rem;
+                    color: #a9a9a9;
+                }
+                div:nth-child(6){
+                    height: 40px;
+                    border-bottom-style: solid;
+                    border-width: 2px;
+                }
+                div:nth-child(7){
+                    height: 49px;
+                    margin-top: 1px;
+                    border-top: 1px solid #e4e4e4;
+                    border-bottom-style: solid;
+                    line-height: 49px;
+                    p:nth-child(1){
+                        font-size: 12px;
+                        font-size: 1.2rem;
+                        color: #999;
+                    }
+                    p:nth-child(2){
+                        font-size: 14px;
+                        font-size: 1.4rem;
+                        font-weight: bold;
+                    }
+                }
+            }
+            &>div:nth-child(2){
+                border-top: 1px solid #e4e4e4;
+                border-bottom: 0;
+                margin-top: 1px;
+                line-height: 40px;
+                p:nth-child(1){
+                    font-size: 13px;
+                    font-size: 1.3rem;
+                    span{
+                        font-size: 17px;
+                        font-size: 1.7rem;
+                        font-weight: bold;
+                    }
+                }
+                p:nth-child(2){
+                    font-size: 11px;
+                    font-size: 1.1rem;
+                    color: #999;
+                }
+            }
+        }
+        
+        .attach{
+            height: 145px;
+            margin: 0 8px 58px 8px;
+            background: #fff;
+            font-size: 15px;
+            font-size: 1.5rem;
+            font-weight: bold;
+            &>div{
+                height: 49px;
+                border-top: 1px solid #eee;
+                line-height: 48px;
+                padding-left: 15px;
+                div{
+                    float: right;
+                    margin-right: 10px;
+                }
+            }
+            P{
+                span{
+                    font-size: 11px;
+                    font-size: 1.1rem;
+                    color: #bababa;
+                }
+            }
+            
+        }
+    }
+    
+    .footer{
+        height: 50px;
+        background: #4e4e4e;
+        position: fixed;
+        bottom: 0;
+        button{
+            height: 50px;
+            width: 128px;
+            float: right;
+            background: #58d178;
+            color: #fff;
+            font-size: 15px;
+            font-size: 1.5rem;
+        }
+        .money{
+            margin-right: 128px;
+            p{
+                margin-left: 14px;
+                height: 50px;
+                line-height: 50px;
+                span:nth-child(1){
+                    font-size: 17px;
+                    font-size: 1.7rem;
+                    color: #fff;
+                }
+                span:nth-child(2){
+                    font-size: 12px;
+                    font-size: 1.2rem;
+                    color: #999;
+                }
+            }
+        }
+    }
+}

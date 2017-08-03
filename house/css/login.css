@@ -1,0 +1,138 @@
+a:link,a:visited{
+    text-decoration: none;
+    color: #43bbd5;
+}
+p{
+    color: #999;
+    font-size: 12px;
+    font-size: 1.2rem;
+}
+
+.tips{
+    padding-top: 22px;
+    margin-bottom: 9px;
+    text-align: center;
+}
+
+.username{
+    width: auto;
+    height: 20px;
+    padding: 10px 4px;
+    margin: 0 20px;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+    background: white;
+    position: relative;
+}
+.username .phone{
+    font-family: 'iconfont';
+    color: #41c2fe;
+    font-size: 15px;
+    font-size: 1.5rem;
+    position: absolute;
+    left: 17px;
+    top: 13px;
+}
+.username input{
+    width: 90%;
+    height: 20px;
+    font-size: 12px;
+    font-size: 1.2rem;
+    border: none;
+    outline: none;
+    background: transparent;
+    margin-left: 40px;
+}
+
+.verify{
+    width: auto;
+    height: 40px;
+    margin: 9px 20px 15px;
+    
+}
+.verify .printVerify{
+    width: auto;
+    height: 20px;
+    padding: 10px 4px;
+    margin-right: 95px;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+    background: white;
+    position: relative;
+}
+.verify .printVerify .verifyIcon{
+    font-family: 'iconfont';
+    color: #41c2fe;
+    font-size: 16px;
+    font-size: 1.6rem;
+    position: absolute;
+    left: 17px;
+    top: 12px;
+}
+.verify .printVerify input{
+    width: 90%;
+    height: 20px;
+    margin-left: 40px;
+    font-size: 12px;
+    font-size: 1.2rem;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+.verify .getVerify{
+    width: 84px;
+    float: right;
+    background: #ffd27c;
+    border-radius: 4px;
+}
+.verify .getVerify button{
+    width: 100%;
+    height: 40px;
+    outline: none;
+    border: none;
+    background: transparent;
+    color: white;
+    font-size: 12px;
+    font-size: 1.2rem;  
+}
+.verify .getVerify button:active{
+    border-radius: 4px;
+    box-shadow: 1px 1px 2px 1px #caaa6b;
+}
+
+.login{
+    width: auto;
+    height: 40px;
+    margin: 0 20px;
+    border-radius: 4px;
+    background: #43ccf0;
+}
+.login button{
+    width: 100%;
+    height: 40px;
+    padding: 0 20px;
+    outline: none;
+    border: none;
+    background: transparent;
+    color: white;
+    font-size: 16px;
+    font-size: 1.6rem;
+}
+.login button:active{
+    border-radius: 4px;
+    box-shadow: 1px 1px 2px 1px #43b2c8;
+}
+
+.agreement{
+    margin-top: 11px;
+    margin-left: 22px;
+}
+
+.logo{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+.logo img{
+    width: 100%;
+}

@@ -1,0 +1,143 @@
+#elm {
+  height: 100%;
+  background: #f5f5f5;
+  margin: 0 auto; }
+  #elm #header {
+    width: 100%;
+    height: 56px;
+    background: #009cff; }
+    #elm #header .title, #elm #header .pwdLogin {
+      width: auto;
+      height: 56px;
+      line-height: 56px;
+      font-size: 16px;
+      font-size: 1.6rem;
+      color: white;
+      float: left;
+      margin-left: 20px; }
+      #elm #header .title .arrow, #elm #header .pwdLogin .arrow {
+        font-family: "iconfont";
+        font-size: 17px;
+        font-size: 1.7rem;
+        color: white;
+        margin-right: 24px;
+        float: left; }
+      #elm #header .title p, #elm #header .pwdLogin p {
+        float: left; }
+    #elm #header .pwdLogin {
+      float: right;
+      margin-left: 0;
+      margin-right: 12px; }
+  #elm #content {
+    margin-top: 13px;
+    width: 100%;
+    height: 96px;
+    background: #fff; }
+    #elm #content input {
+      background: transparent;
+      padding: 13px;
+      margin-top: 3px;
+      float: left;
+      caret-color: #33b5e5; }
+    #elm #content .phone {
+      height: 46px;
+      line-height: 46px;
+      border: 1px solid #eaeaea; }
+      #elm #content .phone .tel {
+        width: 48%; }
+      #elm #content .phone .pdel {
+        float: right;
+        font-family: "iconfont";
+        font-size: 21px;
+        font-size: 2.1rem;
+        color: #a0a0a0;
+        display: none; }
+      #elm #content .phone .get {
+        float: right;
+        margin: 3px 8px;
+        width: 100px;
+        height: 40px;
+        line-height: 40px;
+        border-radius: 2px;
+        background: #d5d4d2;
+        color: #fff;
+        letter-spacing: 1px; }
+    #elm #content .verify {
+      height: 47px;
+      line-height: 47px;
+      border: 1px solid #d2d2d2;
+      border-width: 0 1px 1px 1px; }
+      #elm #content .verify .vcode {
+        width: 80%; }
+      #elm #content .verify .vdel {
+        float: right;
+        font-family: "iconfont";
+        font-size: 21px;
+        font-size: 2.1rem;
+        color: #a0a0a0;
+        display: none;
+        margin-right: 13px; }
+  #elm .tips, #elm .notice {
+    width: 100%;
+    height: auto;
+    margin-top: 17px; }
+    #elm .tips a, #elm .notice a {
+      color: #0088cc; }
+    #elm .tips p, #elm .notice p {
+      font-size: 13px;
+      font-size: 1.3rem;
+      margin: 0 18px 0 14px; }
+  #elm .notice {
+    display: none; }
+    #elm .notice p {
+      text-align: center; }
+  #elm .sub {
+    width: 100%;
+    height: 48px;
+    line-height: 48px;
+    margin-top: 27px; }
+    #elm .sub .btn {
+      height: 48px;
+      margin: 0 8px;
+      border-radius: 2px;
+      background: #4dc060;
+      font-size: 18px;
+      font-size: 1.8rem;
+      color: white; }
+  #elm #footer {
+    width: 100%;
+    height: 110px; }
+    #elm #footer .third {
+      height: 30px;
+      line-height: 30px;
+      text-align: center;
+      font-size: 13px;
+      font-size: 1.3rem;
+      color: #999; }
+    #elm #footer .links {
+      width: 100%;
+      height: 80px; }
+      #elm #footer .links .icon {
+        width: 25%;
+        height: 80px;
+        float: left;
+        text-align: center; }
+        #elm #footer .links .icon .icons {
+          margin: 10px 0;
+          font-family: "iconfont";
+          font-size: 40px;
+          font-size: 4rem; }
+        #elm #footer .links .icon .icons.wx {
+          color: #40bd3f; }
+        #elm #footer .links .icon .icons.qq {
+          color: #12b7f5; }
+        #elm #footer .links .icon .icons.wb {
+          color: #e6162d; }
+        #elm #footer .links .icon .icons.tb {
+          color: #fd4702; }
+        #elm #footer .links .icon p {
+          font-size: 10px;
+          font-size: 1rem;
+          color: #999; }
+
+/*# sourceMappingURL=login.css.map */

@@ -1,0 +1,118 @@
+#elm{
+    margin: 0 auto;
+    background: #f5f5f5;
+    #toper{
+        height: 56px;
+        line-height: 56px;
+        background: linear-gradient(to right,#01aaff,#0186ff);
+        div{
+            float: left;
+            font-size: 18px;
+            font-size: 1.8rem;
+            color: #fff;
+            margin: 0 20px;
+        }
+        h1{
+            font-size: 18px;
+            font-size: 1.8rem;
+            color: #fff;
+        }
+    }
+    .top{
+        height: 141px;
+        background: #fff;
+        margin-bottom: 6px;
+        div:nth-child(1){
+            height: 91px;
+            text-align: center;
+            line-height: 45px;
+            margin: 0 18px;
+            border-bottom: 1px solid #eee;
+            p{
+                font-size: 12px;
+                font-size: 1.2rem;
+                color: #666;
+            }
+            h1{
+                font-size: 20px;
+                font-size: 2rem;
+            }
+        }
+        div:nth-child(2){
+            margin: 0 18px;
+            height: 50px;
+            line-height: 50px;
+            span{
+                font-size: 13px;
+                font-size: 1.3rem;
+            }
+            p{
+                float: right;
+                font-size: 14px;
+                font-size: 1.4rem;
+                color: #ff6000;
+                span{
+                    color: #999;
+                }
+            }
+        }
+    }
+    
+    .paymed{
+        height: 44px;
+        line-height: 44px;
+        margin-left: 16px;
+        p{
+            font-size: 13px;
+            font-size: 1.3rem;
+            color: #666;
+        }
+    }
+    #content{
+        height: 210px;
+        background: #fff;
+        border-top: 1px solid #eee;
+        border-bottom: 1px solid #eee;
+        border-width: thin;
+        &>div{
+            margin-left: 15px;
+            height: 50px;
+            line-height: 50px;
+            border-top: 1px solid #eee;
+            &>div:nth-child(1){
+                float: left;
+            }
+        }
+        p{
+            font-size: 14px;
+            font-size: 1.4rem;
+            margin-left: 25px;
+        }
+        .r{
+            float: right;
+        }
+        &>div:nth-child(1){
+            height: 60px;
+            line-height: 30px;
+            border-top: 0;
+            span{
+                margin-left: 25px;
+            }
+        }
+    }
+    
+    #subpay{
+        position: fixed;
+        bottom: 0;
+        height: 44px;
+        line-height: 44px;
+        background: #4cd964;
+        P{
+            text-align: center;
+            font-size: 14px;
+            font-size: 1.4rem;
+            color: #fff;
+            letter-spacing: 1px;
+        }
+    }
+}
