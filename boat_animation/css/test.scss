@@ -1,0 +1,10 @@
+$w:100px;
+.test{
+    width: $w;
+    height: $w;
+}
+
+h1{
+    @extend .test;
+}
+

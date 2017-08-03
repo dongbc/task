@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+    font-size: 62.5%;
+    font-family: "Microsoft YaHei";
+}
+button,input,select{
+    border: none;
+    outline: none;
+}
+ul,li{
+    list-style-type:none;
+}
+a{
+    text-decoration:none;
+    cursor:pointer;
+}
+img{
+    border:none;
+}

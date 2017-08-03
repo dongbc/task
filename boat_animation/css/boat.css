@@ -1,0 +1,214 @@
+body {
+  width: 100%;
+  height: 100%;
+  background: url(../images/bg.jpg) center top no-repeat;
+  position: absolute;
+  overflow: hidden; }
+
+.say {
+  width: 600px;
+  height: 100px;
+  font-size: 20px;
+  font-size: 2rem;
+  font-family: "Arial";
+  color: white;
+  text-shadow: 3px 3px 3px #000;
+  position: absolute;
+  right: 100px;
+  bottom: 50px;
+  z-index: 8; }
+
+.cloud_01 {
+  width: 100%;
+  height: 140px;
+  background: url(../images/cloud_01.png) left bottom no-repeat;
+  position: absolute;
+  left: 15%;
+  z-index: 2;
+  animation: cloud_01 2s linear 0s infinite alternate; }
+
+@keyframes cloud_01 {
+  from {
+    height: 140px; }
+  to {
+    height: 200px; } }
+.cloud_02 {
+  width: 100%;
+  height: 280px;
+  background: url(../images/cloud_02.png) center bottom no-repeat;
+  position: absolute;
+  right: 6%;
+  z-index: 4;
+  animation: cloud_02 2s linear 0s infinite alternate; }
+
+@keyframes cloud_02 {
+  from {
+    height: 280px; }
+  to {
+    height: 180px; } }
+.cloud_03 {
+  width: 100%;
+  height: 200px;
+  background: url(../images/cloud_03.png) right bottom no-repeat;
+  position: absolute;
+  right: 15%;
+  z-index: 4;
+  animation: cloud_03 2s linear 0s infinite alternate; }
+
+@keyframes cloud_03 {
+  from {
+    height: 200px; }
+  to {
+    height: 280px; } }
+.cloud_04 {
+  width: 135px;
+  height: 82px;
+  background: url(../images/cloud_04.png) left top no-repeat;
+  position: absolute;
+  top: 200px;
+  z-index: 3;
+  animation: cloud_04 30s linear 0s infinite alternate; }
+
+@keyframes cloud_04 {
+  from {
+    left: 1000px; }
+  to {
+    left: -1000px; } }
+.wave_01 {
+  width: 100%;
+  height: 200px;
+  background: url(../images/wave_01.png) center top no-repeat;
+  position: absolute;
+  bottom: -50px;
+  z-index: 6;
+  animation: wave_01 3s linear 0s infinite alternate; }
+
+@keyframes wave_01 {
+  from {
+    bottom: -50px; }
+  to {
+    bottom: 0px; } }
+.wave_02 {
+  width: 100%;
+  height: 200px;
+  background: url(../images/wave_02.png) center top no-repeat;
+  position: absolute;
+  bottom: 0px;
+  z-index: 4;
+  animation: wave_02 3s linear 0s infinite alternate; }
+
+@keyframes wave_02 {
+  0% {
+    bottom: 0px; }
+  100% {
+    bottom: 50px; } }
+.wave_03 {
+  width: 100%;
+  height: 200px;
+  background: url(../images/wave_03.png) center top no-repeat;
+  position: absolute;
+  bottom: 50px;
+  z-index: 1;
+  animation: wave_03 3s linear 0s infinite alternate; }
+
+@keyframes wave_03 {
+  0% {
+    bottom: 50px; }
+  100% {
+    bottom: 100px; } }
+.fish_01 {
+  width: 235px;
+  height: 94px;
+  background: url(../images/fish_01.png) center bottom no-repeat;
+  position: absolute;
+  left: 40%;
+  z-index: 2;
+  animation: fish_01 5s linear 2s infinite normal; }
+
+@keyframes fish_01 {
+  0% {
+    transform: rotate(0deg);
+    bottom: 100px; }
+  30% {
+    transform: rotate(-30deg);
+    left: 20%;
+    bottom: 300px; }
+  50% {
+    transform: rotate(-40deg);
+    left: 10%;
+    buttom: 100px; }
+  75% {
+    transform: rotate(-50deg);
+    left: 0%;
+    bottom: 0px; }
+  100% {
+    transform: rotate(-70deg);
+    left: -10%;
+    bottom: -100px; } }
+.fish_02 {
+  width: 228px;
+  height: 139px;
+  background: url(../images/fish_02.png) left bottom no-repeat;
+  position: absolute;
+  left: 30%;
+  bottom: 0px;
+  z-index: 5;
+  animation: fish_02 5s linear 0s infinite normal; }
+
+@keyframes fish_02 {
+  0% {
+    transform: rotate(0deg);
+    left: 20%;
+    bottom: 0px; }
+  25% {
+    transform: rotate(-20deg);
+    left: 15%;
+    bottom: 80px; }
+  50% {
+    transform: rotate(-40deg);
+    left: 10%;
+    bottom: 160px; }
+  55% {
+    transform: rotate(-60deg);
+    left: 5%;
+    bottom: 80px; }
+  70% {
+    transform: rotate(-80deg);
+    left: 0%;
+    bottom: 0px; }
+  100% {
+    transform: rotate(-100deg);
+    left: 0%;
+    bottom: -200px; } }
+.ship {
+  width: 412px;
+  height: 409px;
+  background: url(../images/ship.png) right bottom no-repeat;
+  position: absolute;
+  right: 20%;
+  bottom: 60px;
+  z-index: 2;
+  animation: ship 2s linear 0s infinite alternate; }
+
+@keyframes ship {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(-20deg); } }
+.moon {
+  width: 150px;
+  height: 174px;
+  background: url(../images/moon.png) left top no-repeat;
+  position: absolute;
+  left: 20%;
+  top: 15%;
+  z-index: 1;
+  animation: moon 2s linear 0s infinite alternate; }
+
+@keyframes moon {
+  from {
+    transform: rotateZ(0deg); }
+  to {
+    transform: rotateZ(-20deg); } }
+
+/*# sourceMappingURL=boat.css.map */

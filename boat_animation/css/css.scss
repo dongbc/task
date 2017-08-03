@@ -1,0 +1,23 @@
+$w:30px;
+$h:30px;
+
+.test{
+    width: $w;
+    height: $h;
+    background: red;
+}
+
+a{
+    @extend .test;
+    &:hover{
+        background: red;
+    }
+}
+
+@mixin p($p:20px){
+    width: $p;
+}
+
+.jc{
+    @include p;
+}
